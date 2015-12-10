@@ -881,13 +881,18 @@ footer .furniture li:last-child {
     display: none;
 }
 #list_product.product-list .grid-element h5 {
-    bottom: -25px;
+    bottom: -60px;
+    color: #000;
     font-size: 14px;
+    height: 55px;
     left: auto;
     position: absolute;
     text-align: center;
     top: auto;
     width: 100%;
+}
+#list_product.product-list .grid-element:hover h5{
+	color: red;
 }
 #list_product.product-list .grid-element .pic > img {
     height: 100%;
@@ -1498,7 +1503,7 @@ footer .furniture li:last-child {
 
     }
     #list_product.product-list .grid-element, .grid-empty {
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
     #list_product .grid-element h5 {
         bottom: -35px;
